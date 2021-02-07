@@ -1,0 +1,250 @@
+body{
+    background-image: url(../img/tapiz.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(201, 20, 20);
+}
+
+.toro{
+    background-image: url(../img/toro.png);   
+    background-repeat: no-repeat;
+    background-size: 200px 150px;    
+    position: absolute;
+    top: 20%;
+    left: 20%;    
+    width: 200px;
+    height: 150px;
+    /*animation-name: toro;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
+p{
+    text-align: center;    
+}
+
+.mesa{
+    background-image: url(../img/mesa.png);
+    background-repeat: no-repeat;
+    background-size: 300px 150px;    
+    position: absolute;
+    top: 70%;
+    left: 33%;    
+    width: 300px;
+    height: 150px;   
+
+}
+
+.silla{
+    background-image: url(../img/silla.png);
+    background-repeat: no-repeat;
+    background-size: 80px 150px;    
+    position: absolute;
+    top: 65%;
+    left: 0%;    
+    width: 80px;
+    height: 150px;   
+    /*animation-name: silla;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+    
+}
+
+.plato{
+    background-image: url(../img/plato1.png);
+    background-repeat: no-repeat;
+    background-size: 100px 50px;    
+    position: absolute;
+    top: 30%;
+    left: 40%;    
+    width: 100px;
+    height: 50px;
+   /* animation-name: plato;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
+#inicio{
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    height: 27px;
+}
+
+.tenedor{
+    background-image: url(../img/tenedor.png);
+    background-repeat: no-repeat;
+    background-size: 15px 50px;    
+    position: absolute;
+    top: 30%;
+    left: 39%;    
+    width: 20px;
+    height: 50px;
+    /*animation-name: tenedor;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
+.cuchillo{
+    background-image: url(../img/cuchillo.png);
+    background-repeat: no-repeat;
+    background-size: 15px 50px;    
+    position: absolute;
+    top: 30%;
+    left: 49%;    
+    width: 15px;
+    height: 50px;
+    /*animation-name: cuchillo;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
+.pollo{
+    background-image: url(../img/polloFrito.png);
+    background-repeat: no-repeat;
+    background-size: 90px 90px;    
+    position: absolute;
+    top: 27%;
+    left: 50%;    
+    width: 90px;
+    height: 90px;   
+    /*animation-name: polloFrito;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
+.ensalada{
+    background-image: url(../img/ensalada.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;    
+    position: absolute;
+    top: 55%;
+    left: 91%;    
+    width: 80px;
+    height: 80px;
+    /*animation-name: ensalada;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+
+}
+
+.jarra{
+    background-image: url(../img/jarra.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;    
+    position: absolute;
+    top: 60%;
+    left: 85%;    
+    width: 80px;
+    height: 80px;
+    /*animation-name: jarra;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+
+}
+
+.vaso{
+    background-image: url(../img/vaso.png);
+    background-repeat: no-repeat;
+    background-size: 30px 40px;    
+    position: absolute;
+    top: 72%;
+    left: 83%;    
+    width: 80px;
+    height: 80px;
+    /*animation-name: vaso;
+    /*animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+
+}
+
+@keyframes silla{
+    from{ left:0%; top: 65%;}
+    to{ left: 24%; top: 65%;}
+}
+
+@keyframes toro{
+    from{ left:20%; top: 20%;}
+    to{ left: 20%; top: 52%;}
+}
+
+@keyframes plato{
+    from{ left:40%; top: 30%;}
+    to{ left: 37%; top: 70%;}
+}
+
+@keyframes tenedor{
+    from{ left:39%; top: 30%;}
+    to{ left: 43%; top: 70%;}
+}
+
+@keyframes cuchillo{
+    from{ left:49%; top: 30%;}
+    to{ left: 44%; top: 70%;}
+}
+
+@keyframes polloFrito{
+    from{ left:50%; top: 27%;}
+    to{ left: 38%; top: 55%;}
+}
+
+@keyframes ensalada{
+    from{ left:91%; top: 55%;}
+    to{ left: 45%; top: 58%;}
+}
+
+@keyframes jarra{
+    from{ left:85%; top: 60%;}
+    to{ left: 53%; top: 62%;}
+}
+
+@keyframes vaso{
+    from{ left:83%; top: 72%;}
+    to{ left: 50%; top: 71%;}
+}
+
+input{
+    position: relative;
+    z-index: 100;
+}
+
+.boton{
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;           
+    background-repeat: no-repeat;
+}
+
+.botones{
+    margin-left: 8%;
+}
+
+
+
+

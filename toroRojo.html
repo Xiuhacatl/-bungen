@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>красный бык</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <h1>¿Que debería colocar Toro Rojo en la mesa?</h1>
+    <div class="botones">
+        <input type="button" id="moverSilla" class="boton" value="Silla" onclick="mover()">
+        <input type="button" id="moverToro" class="boton" value="Toro" onclick="moverT()"> 
+        <input type="button" id="moverPlato" class="boton" value="Plato" onclick="moverP()">
+        <input type="button" id="moverTenedor" class="boton" value="Tenedor" onclick="moverTen()">        
+        <input type="button" id="moverCuchillo" class="boton" value="Cuchillo" onclick="moverC()">      
+        <input type="button" id="moverFrito" class="boton" value="Pollo" onclick="movP()">
+        <input type="button" id="moverEnsalada" class="boton" value="Ensalada" onclick="moverE()">
+        <input type="button" id="moverJarra" class="boton" value="Jarra" onclick="moverJ()">
+        <input type="button" id="moverVaso" class="boton" value="Vaso" onclick="moverV()">
+        <input type="button" id="inicio" class="boton" value="Volver al inicio" onclick="window.location.href='../juegoEducativo/toroRojo.html'" >
+    </div>   
+    
+      
+    <div class="mesa" id="mesa"></div>
+    <div class="silla" id="silla"></div>
+    <div class="toro" id="toro"></div>
+    <div class="pollo" id="pollo"></div>     
+    <div class="plato" id="plato"></div>
+    <div class="tenedor" id="tenedor"></div>
+    <div class="cuchillo" id="cuchillo"></div>    
+    <div class="ensalada" id="ensalada"></div>
+    <div class="jarra" id="jarra"></div>
+    <div class="vaso" id="vaso"></div>
+    <audio src="sound/toroRojo.mp3" autoplay loop></audio>
+    
+
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
